@@ -565,7 +565,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'ES_1932-1939 II Spanish Republic',
 			query: '(nwr[~"^name:193[0-9]-193[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -706,7 +706,7 @@ var config = {
 
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'ES_1939-1975 Spanish Dictatorship names_date',
 			query: '(nwr[~"^name:19[4-7][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1028,7 +1028,7 @@ var config = {
 },
 
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'ES_2021-08-31 Finalización peajes',
 			query: '(nwr[~".:20[0-2][0-9]-[0-1][0-9]-[0-3][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1060,7 +1060,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'ES_2021-09-19',
 			query: '(nwr[~".:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1566,7 +1566,7 @@ var config = {
 		 
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'DE_1961-1989_11_09 Berliner Mauer',
 			query: '(nwr[~"^name:196[0-9]-198[0-9]_11_09$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1722,7 +1722,7 @@ var config = {
 		 
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'US_MA-NY_1970 Amtrak Railroad Historic',
 			query: '(nwr[~"^old_name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1840,7 +1840,7 @@ var config = {
 		 
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'US_WA 1875-1895 Old names Seattle',
 			query: '(nwr[~"^old_name:1875-1895$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1980,7 +1980,7 @@ var config = {
 		 
 		},
 		{
-			group: 'Temes',
+			group: 'Topics',
 			title: 'US_WI Milwaukee Historic Map',
 			query: '(nwr[~"^name:1"~".*"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
