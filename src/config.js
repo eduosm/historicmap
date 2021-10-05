@@ -1061,7 +1061,7 @@ var config = {
 		},
 		{
 			group: 'Temes',
-			title: 'ES_2021-09-19 Eruption La Palma',
+			title: 'ES_2021-09-19',
 			query: '(nwr[~".:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D00B67',
