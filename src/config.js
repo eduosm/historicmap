@@ -1649,6 +1649,18 @@ var config = {
 							})
 						})
 					},
+					'destroyed:area': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 0, 220, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 0, 220, 0.3)'
+							})
+						})
+										},
 					'destroyed:building': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
