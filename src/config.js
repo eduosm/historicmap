@@ -1590,10 +1590,45 @@ var config = {
 								placement: 'line'
 							})
 						}),
+						'place_of_worship': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(196, 182, 171, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(196, 182, 171, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'restaurant': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(200, 94, 70, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(200, 94, 70, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'recycling': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(182, 255, 0, 1.0)'
+								}),
+								stroke: null
+							})
+						}),
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 1
 							}),
 							text: new ol.style.Text({
 								text: name,
